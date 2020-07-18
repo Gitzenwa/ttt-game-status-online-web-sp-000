@@ -18,8 +18,11 @@ WIN_COMBINATIONS = [
 def won?(board)
   win_combination =[]
   counter = 0
-  WIN_COMBINATIONS.each do |w_index|
-    win_combination[counter] == w_index
+  WIN_COMBINATIONS.each do |win_combination|
+    win_index_1 = win_combination[0]
+    win_index_2 = win_combination[1]
+    win_index_3 = win_combination[2]
+
     counter += 1
 
   #returns falsey for an empty board, takes in board as an arguemnt, uses all  evaluates using all to see if the position is taken
