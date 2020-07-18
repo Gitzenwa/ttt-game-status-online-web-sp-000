@@ -35,6 +35,9 @@ def over?(board)
   full?(board) || won?(board)
 end
 
+def winner(board)
+
+end
 
 
   #returns falsey for an empty board, takes in board as an arguemnt, uses all  evaluates using all to see if the position is taken
