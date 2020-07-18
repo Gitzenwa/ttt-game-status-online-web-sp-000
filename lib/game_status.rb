@@ -21,7 +21,7 @@ def won?(board)
   WIN_COMBINATIONS.each do |w_index|
     win_combination[counter] == w_index
     counter += 1
-  
+
   #returns falsey for an empty board, takes in board as an arguemnt, uses all  evaluates using all to see if the position is taken
   #if board.all?{|index| position_taken?(board, index.to_i)}
   #returns falsey for a draw, determine all the positions are taken, iteraate over the values, search the WIN_COMBINATIONS array for
