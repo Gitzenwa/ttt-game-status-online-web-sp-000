@@ -38,6 +38,7 @@ end
 def winner(board)
   if won?(board)
     WIN_COMBINATIONS[0][0]
+  end
 end
 
 
