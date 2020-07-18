@@ -21,7 +21,11 @@ def won?(board)
     win_index_2 = win_combination[1]
     win_index_3 = win_combination[2]
 
-    counter += 1
+    position_1 = board[win_index_1]
+    position_2 = board[win_index_2]
+    position_3 = board[win_index_3]
+
+
 
   #returns falsey for an empty board, takes in board as an arguemnt, uses all  evaluates using all to see if the position is taken
   #if board.all?{|index| position_taken?(board, index.to_i)}
