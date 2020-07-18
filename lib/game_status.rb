@@ -25,6 +25,9 @@ def won?(board)
     position_2 = board[win_index_2]
     position_3 = board[win_index_3]
 
+    if position_1 == "X" && position_2 =="X" && position_3 == "X"
+      return win_combination
+
 
 
   #returns falsey for an empty board, takes in board as an arguemnt, uses all  evaluates using all to see if the position is taken
