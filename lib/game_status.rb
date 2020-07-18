@@ -35,4 +35,3 @@ end
 #elsif board.none?{|index| }
   #return false if no win combinations
   #return winning combination as an array
-end
