@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
   [2,4,6], # right diagonal
 ]
 def won?(board)
-  WIN_COMBINATIONS.each do |combo|
+  WIN_COMBINATIONS.detect do |combo|
 
 
 
