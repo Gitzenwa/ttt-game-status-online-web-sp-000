@@ -37,7 +37,7 @@ end
 
 def winner(board)
   if won?(board)
-    WIN_COMBINATIONS[0][0].to_s
+    board.detect{|x| x == WIN_COMBINATIONS[0][0]}
   end
 end
 
